@@ -14,20 +14,18 @@ int main()
   for(int i=0; i<n; i++)
   {
     for(int j=0; j<2; j++)
-    {   
+    {
       cin>>in_arr[i][j];
-    }   
+    }
   }
 
 
   for(int i=0; i<n; i++)
   {
     for(int j=0; j<1; j++)
-    {   
-      int sum = 0;    
-      sum = sum + in_arr[i][0] + in_arr[i][1];
-      cout<<sum<<endl;
-    }   
+    {
+      cout<<in_arr[i][0] + in_arr[i][1]<<endl;
+    }
   }
 
 
