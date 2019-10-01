@@ -7,7 +7,7 @@ using namespace std;
 
 int main() 
 {
-   short int T;
+     short int T;
    cin>>T;
    
    while(T--)
